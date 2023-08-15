@@ -1,14 +1,64 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Responsive Header</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    /* Basic styles for the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .menu {
+    text-align: center;
+  }
+
+  .menu li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+  </style>
 </head>
 <body>
-    <img src="/assets/images/bang-luong-1.png" width="150" height="108" class="magnify" />
-    <script type="text/javascript"src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="http://bloggiaovienthaibinh.110mb.com/anh2/jquery.magnifier.js"></script>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">Logo</a>
+      </div>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Rest of the page content -->
 </body>
 </html>
-
