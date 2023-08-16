@@ -12,6 +12,7 @@ https://templatemo.com/tm-529-ramayana
 
 body {
 	font-family: 'Roboto Slab', sans-serif;
+    background-color: #f6f7f6;
 }
 
 /* Basic */
@@ -44,6 +45,9 @@ img {
 	overflow: hidden;
 }
 
+.background{
+    background-image: url(/assets/images/acuibap.jpg);
+}
 .primary-button a,
 button {
 	font-size: 14px;
@@ -84,6 +88,7 @@ section {
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
     min-height: 100vh;
+    background-color: #f6f7f6;
 }
 
 
