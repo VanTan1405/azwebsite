@@ -1296,7 +1296,9 @@ section.buttons .container-fluid {
 
 #menu ul a:hover,
 #menu ul span:hover {
-    color: #535ba0;
+    /* color: #535ba0; */
+    color: bisque;
+
     /* background-color: #1b8dd8; */
 }
 
