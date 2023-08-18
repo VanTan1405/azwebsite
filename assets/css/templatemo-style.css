@@ -1221,7 +1221,7 @@ section.buttons .container-fluid {
     position: fixed;
     z-index: 4;
     margin-left: -100px;
-    width: 1264px;
+    width: 100%;
 }
 
 #header .logo {
